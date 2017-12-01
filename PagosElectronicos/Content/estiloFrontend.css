@@ -1,0 +1,245 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    /*display:flex;
+    justify-content: flex-end;*/
+}
+
+#imglogoblanco {
+    width: 55px;
+    height: 20px;
+    margin-left: -5px;
+    margin-top: -7px;
+    margin-right: 5px;
+}
+
+
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 50;
+}
+
+
+main {
+    width: 40%;
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 5%;
+    padding: 20px;
+    z-index: 90;
+    position: fixed;
+    margin-top: -50px;
+    margin-left: -20px;
+}
+
+#tituloMediano {
+    display: none !important;
+}
+
+#tituloPequenio {
+    display: none !important;
+}
+
+#tituloExtraPequenio {
+    display: none !important;
+}
+
+/*Para 1000px*/
+@media only screen and (max-width: 1000px) and (min-width: 821px) {
+    video {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 50;
+    }
+
+
+    main {
+        width: 520px;
+        background: rgb(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 5%;
+        padding: 20px;
+        z-index: 90;
+        position: fixed;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+
+    #tituloMediano {
+        display: none !important;
+    }
+
+    #tituloPequenio {
+        display: none !important;
+    }
+
+    #tituloExtraPequenio {
+        display: none !important;
+    }
+}
+/*Para 800px*/
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+    video {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 50;
+    }
+
+
+    main {
+        width: 520px;
+        background: rgb(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 5%;
+        padding: 20px;
+        z-index: 90;
+        position: fixed;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+
+    #tituloGrande {
+        display: none !important;
+    }
+
+    #tituloMediano {
+        display: block !important;
+    }
+
+    #tituloPequenio {
+        display: none !important;
+    }
+
+    #tituloExtraPequenio {
+        display: none !important;
+    }
+}
+
+/*Para 600px*/
+@media only screen and (max-width: 620px) and (min-width: 501px) {
+    video {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 50;
+    }
+
+
+    main {
+        width: 450px;
+        background: rgb(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 5%;
+        padding: 20px;
+        z-index: 90;
+        position: fixed;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+
+    #tituloGrande {
+        display: none !important;
+    }
+
+    #tituloMediano {
+        display: block !important;
+    }
+
+    #tituloPequenio {
+        display: none !important;
+    }
+
+    #tituloExtraPequenio {
+        display: none !important;
+    }
+}
+
+/*Para 480px*/
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    video {
+        display: none !important;
+    }
+
+    main {
+        width: 120%;
+        background: rgb(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 5%;
+        padding: 20px;
+        z-index: 90;
+        position: fixed;
+        margin-top: -40px;
+        margin-left: -20px;
+    }
+
+    #tituloPequenio {
+        display: block !important;
+    }
+
+    #tituloGrande {
+        display: none !important;
+    }
+
+    #tituloMediano {
+        display: none !important;
+    }
+
+    #tituloExtraPequenio {
+        display: none !important;
+    }
+}
+
+/*Para 320px*/
+@media only screen and (max-width: 340px) and (min-width: 5px) {
+    video {
+        display: none !important;
+    }
+
+    main {
+        width: 120%;
+        background: rgb(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 5%;
+        padding: 20px;
+        z-index: 90;
+        position: fixed;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+    #tituloPequenio {
+        display: none !important;
+    }
+
+    #tituloGrande {
+        display: none !important;
+    }
+
+    #tituloMediano {
+        display: none !important;
+    }
+
+    #tituloExtraPequenio {
+        display: block !important;
+    }
+
+    
+}
